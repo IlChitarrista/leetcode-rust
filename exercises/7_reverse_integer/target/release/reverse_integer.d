@@ -1,1 +1,1 @@
-/home/mattia/Projects/rust/src/Leetcode/reverse_integer/target/release/reverse_integer: /home/mattia/Projects/rust/src/Leetcode/reverse_integer/src/main.rs
+/home/mattia/Documents/GitHub/leetcode-rust/exercises/7_reverse_integer/target/release/reverse_integer: /home/mattia/Documents/GitHub/leetcode-rust/exercises/7_reverse_integer/src/main.rs
