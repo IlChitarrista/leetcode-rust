@@ -25,11 +25,9 @@ fn solution2(x: i32) -> bool {
     }
     let mut writeableNum = x;
     let mut reversedNum = 0;
-	println!("{}, {}", writeableNum, reversedNum);
     while writeableNum > 0 {
         reversedNum = writeableNum%10 + reversedNum*10;
         writeableNum /= 10;
-    	println!("{}, {}", writeableNum, reversedNum);
     }
     reversedNum==x
 }

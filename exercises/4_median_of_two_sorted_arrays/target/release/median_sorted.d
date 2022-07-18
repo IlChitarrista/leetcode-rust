@@ -1,1 +1,0 @@
-/home/mattia/Documents/GitHub/leetcode-rust/exercises/4_median_of_two_sorted_arrays/target/release/median_sorted: /home/mattia/Documents/GitHub/leetcode-rust/exercises/4_median_of_two_sorted_arrays/src/main.rs
