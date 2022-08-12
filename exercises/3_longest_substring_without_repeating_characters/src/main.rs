@@ -16,7 +16,10 @@ fn solution(s: String) -> i32 {
             let contained = s[int_idx] as char;
             let contained_idx = temp.get(&(s[int_idx] as char));
             if contained_idx != None {
-                idx = *contained_idx.unwrap();
+                idx = match contained_idx {
+                    Some(idx) => *idx,
+                    None => panic!("The Program has been externally modified"),
+                };
                 break;
             } else {
                 temp.insert(contained, int_idx);
@@ -34,4 +37,3 @@ fn solution(s: String) -> i32 {
     }
     max as i32
 }
-
